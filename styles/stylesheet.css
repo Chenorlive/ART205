@@ -286,7 +286,7 @@ textarea {
 
 .footer1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 30px 0px;
 
@@ -301,9 +301,13 @@ textarea {
 }
 
 
-/* Table and Mobile style */ 
+/* Table and Mobile style*/ 
 
 @media (max-width: 750px) {
+
+    body {
+        overflow-x: hidden;
+    }
 
 
     .menus {
@@ -315,6 +319,18 @@ textarea {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
+    }
+
+    .contact {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer1 {
+        flex-direction: column;
+        justify-content: center;
         text-align: center;
     }
 
