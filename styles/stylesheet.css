@@ -321,6 +321,10 @@ textarea {
         align-items: center;
         text-align: center;
     }
+    
+    .hero .hero-text {
+        left: 20%;
+    }
 
     .contact {
         flex-direction: column;
